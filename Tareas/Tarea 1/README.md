@@ -19,7 +19,11 @@ Capturas de Tarea 1
 
 ![](Capturas/6.png)
 
-## Apliacion
+## Aplicacion
 
 ![](Capturas/7.png)
 ![](Capturas/8.png)
+
+## Link Video 
+
+https://drive.google.com/file/d/1rOrH1UwvBJMmnihco3w6MemZLHsToDtj/view?usp=sharing
