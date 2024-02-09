@@ -1,0 +1,37 @@
+version: '3.1'
+
+services:
+  mongo:
+    image: mongo
+    container_name: 'MongoDBT2'
+    restart: always
+    volumes:
+      - volume_mongo:/var/lib/mongo      
+    ports:
+      - "27017:27017"
+    networks:
+      - t2_net
+
+  backend:
+    image: "t2backend"
+    container_name: 't2Api'
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      - t2_net
+    
+  frontend:
+    image: 't2frontend'
+    container_name: 't2React'
+    ports:
+      - '8080:80'
+    networks:
+      - t2_net
+
+networks:
+  t2_net:
+    driver: bridge
+
+volumes:
+  volume_mongo:
