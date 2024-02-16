@@ -1,0 +1,1 @@
+savedcmd_/home/luis/LABSOPES1/SO1_1S2024_201602813/HojasTrabajo/Hoja1/ram/modulo_ram.mod := printf '%s\n'   modulo_ram.o | awk '!x[$$0]++ { print("/home/luis/LABSOPES1/SO1_1S2024_201602813/HojasTrabajo/Hoja1/ram/"$$0) }' > /home/luis/LABSOPES1/SO1_1S2024_201602813/HojasTrabajo/Hoja1/ram/modulo_ram.mod

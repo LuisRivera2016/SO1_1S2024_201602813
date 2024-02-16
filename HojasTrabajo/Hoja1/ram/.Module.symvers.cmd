@@ -1,0 +1,1 @@
+savedcmd_/home/luis/LABSOPES1/SO1_1S2024_201602813/HojasTrabajo/Hoja1/ram/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/luis/LABSOPES1/SO1_1S2024_201602813/HojasTrabajo/Hoja1/ram/Module.symvers -T /home/luis/LABSOPES1/SO1_1S2024_201602813/HojasTrabajo/Hoja1/ram/modules.order -i Module.symvers -e 
